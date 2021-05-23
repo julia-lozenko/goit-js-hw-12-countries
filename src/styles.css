@@ -1,0 +1,12 @@
+.app {
+  max-width: 600px;
+}
+
+.bold-text {
+  font-weight: 700;
+}
+
+.country-container {
+  display: flex;
+  justify-content: space-around;
+}
