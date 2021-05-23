@@ -12,7 +12,6 @@ const countryRef = document.querySelector('.app')
 inputRef.addEventListener('input', debounce(searchHandler, 500));
 
 function renderCountriesHere(data) {
-  console.log(data)
   countryRef.innerHTML = '';
   if (data.length === 1) {
     const markUp = singleCountry(data[0]);
